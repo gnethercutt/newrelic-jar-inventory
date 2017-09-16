@@ -1,0 +1,9 @@
+integration_name: org.nethercutt.jarinventory
+
+instances:
+  - name: instance-id
+    command: inventory
+    arguments:
+      jarfile: /path/to/jarfile
+    labels:
+      env: development

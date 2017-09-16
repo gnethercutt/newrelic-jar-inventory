@@ -1,0 +1,12 @@
+name: org.nethercutt.jarinventory
+description: Reports inventory for jar assemblies
+protocol_version: 1
+os: linux
+
+commands:
+  inventory:
+    command:
+      - ./bin/jarinventory
+      - --inventory
+    prefix: packages/jar
+    interval: 60

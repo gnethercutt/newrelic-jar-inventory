@@ -1,0 +1,14 @@
+*~
+.DS_Store
+*.o
+*.so
+*.dmg
+*.swp
+.DS_Store?
+Thumbs.db
+target/
+test-output/
+.project
+.classpath
+.settings/
+.springBeans
